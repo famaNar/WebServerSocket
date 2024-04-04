@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="fichier2.css"> 
+</head>
+<body>
+    <div class="container">
+        <h2>Formulaire de contact</h2>
+        <form id="myForm" action="#" method="post">
+            <input type="text" name="nom" placeholder="Votre nom" required><br>
+            <input type="email" name="email" placeholder="Votre email" required><br>
+            <textarea name="message" placeholder="Votre message" rows="4" required></textarea><br>
+            <input type="button" value="Envoyer" id="buttonEnvoi">
+        </form>
+        <div id="mesSucces" style="display: none;">Envoi réussi!</div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
